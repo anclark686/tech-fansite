@@ -14,6 +14,7 @@ body {
     font-family: 'Poppins', sans-serif;
     display: flex;
     flex-direction: column;
+    text-align: center;
 }
 
 header, footer {
@@ -67,20 +68,8 @@ nav {
     background-color: var(--darkest-blue);
 }
 
-.heading {
-    text-align: center;
-}
-
 .body {
     margin: 20px;
-}
-
-#subheader {
-    text-align: center;
-}
-
-.add-body {
-    text-align: center;
 }
 
 .btn-light {
