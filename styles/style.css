@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+
+:root {
+    --light: white;
+    --light-blue: rgb(86, 204, 204);
+    --med-blue: rgb(20, 39, 109);
+    --darkest-blue: rgb(11, 22, 61);
+    --dark-grey: #272727;
+}
+
+body {
+    height: 100vh;
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+header, footer {
+    background-color: var(--darkest-blue);
+}
+
+.light-head-foot {
+    background-color: var(--light-blue);
+    color: var(--darkest-blue);
+}
+
+.light-body {
+    background: linear-gradient(to bottom, var(--light), var(--light-blue), var(--light));
+    color: var(--darkest-blue);
+}
+
+.dark-head-foot {
+    background-color: var(--darkest-blue);
+    color: var(--light);
+}
+
+.dark-body {
+    background: linear-gradient(to bottom, var(--med-blue), var(--darkest-blue), var(--med-blue));
+    color: var(--light);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+#brand {
+    font-weight: bold;
+}
+
+#mode-buttons button {
+	color: inherit;
+	font: inherit;
+	cursor: pointer;
+    border-radius: 5px;
+    border-color: var(--light);
+}
+
+#light {
+    background-color: var(--light-blue);
+}
+
+#dark {
+    background-color: var(--darkest-blue);
+}
+
+.heading {
+    text-align: center;
+}
+
+.body {
+    margin: 20px;
+}
+
+#subheader {
+    text-align: center;
+}
+
+.add-body {
+    text-align: center;
+}
+
+.btn-light {
+    background-color: var(--darkest-blue);
+    color: var(--light);
+    border-radius: 5px;
+}
+
+.btn-dark {
+    background-color: var(--light-blue);
+    color: var(--darkest-blue);
+    border-radius: 5px;
+    border-color: var(--dark-grey);
+}
+
+#tech-container {
+    width: 75%;
+    height: 200px;
+    max-height: 200px;
+    overflow: auto;
+    margin: 25px auto;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.light-container {
+    background-color: var(--light);
+    box-shadow: 10px 10px 5px #aaaaaa;
+}
+
+.dark-container {
+    background-color: black;
+    box-shadow: 10px 10px 5px var(--dark-grey);
+}
+
+footer {
+    text-align: center;
+    bottom: 0px;
+    margin-top: auto;
+    padding: 5px;
+}
